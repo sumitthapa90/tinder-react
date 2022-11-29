@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Satisfy&family=Zilla+Slab:ital,wght@0,600;1,300&display=swap");
+.form-container {
+  margin: 0 auto;
+  border: 1px solid;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 2rem;
+}
+
+.form {
+  height: 100vh;
+  background-image: linear-gradient(
+    to right,
+    rgb(242, 112, 156),
+    rgb(255, 148, 114)
+  );
+}
+
+.log-form {
+  padding: 1rem;
+  font-family: "Zilla Slab", serif;
+}
+
+.log-form > h1 {
+  text-decoration: underline;
+}
+
+.sub-btn {
+  width: 100px;
+  border: none;
+  padding: 0.5rem;
+  border-radius: 10px;
+}
+.form-label {
+  color: white;
+  font-size: 1.3rem;
+  font-weight: bold;
+}

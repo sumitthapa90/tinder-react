@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Satisfy&family=Zilla+Slab:ital,wght@1,300&display=swap");
+.tinder-homepage {
+  width: 100%;
+  height: 100vh;
+  background-image: url("../public/image/background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding: 0 4%;
+ 
+}
+h1 {
+  color: rgb(72, 65, 65);
+  font-family: "Zilla Slab", serif;
+}
+
+
+.connect-line{
+  color: white;
+  margin-top: 2rem;
+}
+
+.logo-sec {
+  display: flex;
+  color: white;
+  padding-top: 1rem;
+}
+.logo-sing {
+  color: darkcyan;
+}
+
+.tagLine {
+  color: darkcyan;
+  font-family: "Satisfy", cursive;
+}
+
+.text-box {
+  margin-top: 6%;
+
+  color: rgb(53, 64, 55);
+}
+.text-box > h2 {
+  font-size: 80px;
+  font-weight: bold;
+  line-height: 100px;  margin-bottom: 10px;
+}
+.logo-div {
+  padding-top: 2rem;
+}
+
+.submit-btn {
+  display: flex;
+  gap: 10px;
+  margin-top: 3rem;
+  cursor: pointer;
+}
+
+.text-deco {
+  text-decoration: none;
+}
+
+.explore {
+  text-decoration: none;
+}
+.m-t {
+  margin-top: 2rem;
+  padding: 0.5rem;
+  background-color: #2e7d32;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  font-size: 1.2rem;
+  font-weight: normal;
+  cursor: pointer;
+  width: 350px;
+}
